@@ -1,0 +1,110 @@
+.page-headline {
+	background-color: #0DC99F;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.navigation {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	font-family: Helvetica;
+}
+
+h3 {
+	display: inline;
+	text-align: center;
+	padding-right: 20px;
+}
+
+
+
+.Maui {
+	background-color: #C3DEFC;
+	text-align: center;
+	font-family: Helvetica;
+}
+
+.Maui h1 {
+	margin: 0px;
+	padding-top: 40px;
+}
+
+.Maui p {
+	margin: 0px;
+	padding: 40px 240px;
+	line-height: 24px;
+}
+
+.Maui img {
+	padding-top: 40px;
+}
+
+
+
+.Reykjavik {
+	margin: 20px 0px;
+	background-color: #C2F2E3;
+	text-align: center;
+	font-family: Helvetica;
+}
+
+.Reykjavik h1 {
+	margin: 0px;
+	padding-top: 40px;
+}
+
+.Reykjavik p {
+	margin: 0px;
+	padding: 40px 240px;
+	line-height: 24px;
+}
+
+.Reykjavik img {
+	padding-top: 40px;
+}
+
+
+
+.Aspen {
+	margin: 20px 0px;
+	background-color: #C3DEFC;
+	text-align: center;
+	font-family: Helvetica;
+}
+
+.Aspen h1 {
+	margin: 0px;
+	padding-top: 40px;
+}
+
+.Aspen p {
+	margin: 0px;
+	padding: 40px 240px;
+	line-height: 24px;
+}
+
+.Aspen img {
+	padding-top: 40px;
+}
+
+
+.footer {
+	margin: 20px 0px;
+	background-color: #41AC82;
+	color: #E9DA5E;
+	text-align: center;
+	font-family: Helvetica;
+	line-height: 24px;
+	padding: 40px 0px; 
+}
+
+
+
+
+
+
+
