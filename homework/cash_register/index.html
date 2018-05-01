@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+  </head>
+
+  <body>
+    <div id="register">
+      <div id="ticket">
+        <h1>Thank You!</h1>
+        <table>
+          <tbody id="entries">
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>Total</th>
+              <th>$<span id="total">0</span></th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <form id="totalForm">
+        <input id="newEntry" autofocus placeholder="How Much?">
+        <input type="submit" id="submitBtn" name="Submit">
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
