@@ -46,6 +46,7 @@ font-family: 'Source Sans Pro', sans-serif; */
 	justify-content: space-between;
 	align-items: center;
 	background-image: url("../img/coworking.jpg");
+	background-size: cover;
 }
 
 .section1 .box-content {
