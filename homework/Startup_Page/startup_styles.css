@@ -45,7 +45,7 @@ p {
 }
 
 .intro {
-	background-image: url("images/hero.png");
+	background-image: url("images/Hero.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -299,7 +299,7 @@ p {
 }
 
 #footer {
-	background-image: url("images/footer.png");
+	background-image: url("images/Footer.png");
 	height: 400px;
 	margin: 0px;
 	display: flex;
