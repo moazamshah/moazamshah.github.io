@@ -1,25 +1,29 @@
 <DOCTYPE! html>
 <html>
 <head>
-	<title>Vimeo Professionals</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+	<title>Sign up for File today</title>
 	<link rel="stylesheet" href="startup_styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
-	<div class="intro">
-		<div class="nav">
-			<div class="links">
-				<p>Features</p>
-			</div>
-			<div class="logo"></div>
-			<div class="links">
-				<p>Pricing</p>
+	<div class="nav">
+		<div class="nav-items">
+			<p>Logo</p>
+			<div class="buttons">
+				<button class="nav_buttons">Log in</button>
+				<button class="nav_buttons">Sign up</button>
 			</div>
 		</div>
+	</div>
+	<div class="intro">
 		<div class="heading">
-			<h1>Create your best work with us</h1>
-			<h4>You and your <strong>creativity</strong> connected</h4>
-			<button>Sign up today</button>
+			<h1>Create your best work</h1>
+			<h4>We connect your projects to customized workflows and an advanced editor</h4>
+			<button>Get Advanced</button>
 		</div>
 	</div>
 	<div class="subnav">
@@ -28,49 +32,173 @@
 			<a href="#content1"><img src="images/anchor1_icon.png"></a>
 			<a href="#content2"><img src="images/anchor2_icon.png"></a>
 			<a href="#content3"><img src="images/anchor3_icon.png"></a>
-			<a href="#content4"><img src="images/anchor4_icon.png"></a>
+			<a href="#faq"><img src="images/anchor4_icon.png"></a>
 		</div>
 	</div>
 	<div id="content1">
-		<img class="graphic" src="images/content1_graphic.png">
+		<div class="graphic">
+			<div class="play_bg"></div>
+			<img class="play_icon bottomDiv" src="images/play_icon.png">
+		</div>
+		<div class="panel bottomDiv_p">
+			<div class="gradient">
+				<img src="images/gradient.png">
+			</div>
+			<div class="swatches">
+				<div class="color_row">
+					<div class="color1"></div>
+					<div class="color2"></div>
+					<div class="color3"></div>
+					<div class="color4"></div>
+				</div>
+			</div>
+		</div>
 		<div class="messaging">
-			<h2>Lorem ipsum dolor sit amet.</h2>
-			<p>Fusce in turpis commodo, iaculis nunc et, euismod nunc. Integer vel enim urna. Pellentesque id sapien a leo euismod suscipit condimentum vitae diam.</p>
+			<h2>Choose colorfully</h2>
+			<p>We believe you should present your work in its best form, and to do that, we've developed a number of customizable modules. Set your ideas free with our layout tool.</p>
 		</div>
 	</div>
 	<div id="content2">
 		<div class="messaging">
-			<h2>Lorem ipsum dolor sit amet.</h2>
-			<p>Fusce in turpis commodo, iaculis nunc et, euismod nunc. Integer vel enim urna. Pellentesque id sapien a leo euismod suscipit condimentum vitae diam.</p>
+			<h2>Your ideas to the power of HD </h2>
+			<p>Bring your projects to life with an instant quality upgrade. Our Advanced plan comes standard with High Definition output, so none of your pixels are left behind.</p>
 		</div>
-		<img class="graphic" src="images/content2_graphic.png">
+
+
+		<div class="graphic">
+
+			
+		</div>
+
+		<figure class="cd-image-container">
+			<img src="images/hd.png" alt="Original Image">
+			<span class="cd-image-label" data-type="original">HDR</span>
+
+			<div class="cd-resize-img">
+				<img src="images/sd.png" alt="Modified Image">
+				<span class="cd-image-label" data-type="modified">SDR</span>
+			</div>
+
+			<span class="cd-handle"></span>
+		</figure>
+
+
+
+
+
 	</div>
 	<div id="content3">
-		<img class="graphic" src="images/content3_graphic.png">
-		<div class="messaging">
-			<h2>Lorem ipsum dolor sit amet.</h2>
-			<p>Fusce in turpis commodo, iaculis nunc et, euismod nunc. Integer vel enim urna. Pellentesque id sapien a leo euismod suscipit condimentum vitae diam.</p>
-		</div>
-	</div>
-	<div id="content4">
-		<div class="messaging">
-			<h2>Make it yours, everywhere</h2>
-			<p>Fusce in turpis commodo, iaculis nunc et, euismod nunc. Integer vel enim urna. Pellentesque id sapien a leo euismod suscipit condimentum vitae diam.</p>
-			<ul>
-		</div>
 		<div class="grid">
-			<h2>$9/month</h2>
-			<h3>File Advanced</h3>
-			<p>Release your ideas with our all in one plan</p>
-			<ul>
-				<li>Class aptent taciti sociosqu ad litora</li>
-				<li>Class aptent taciti sociosqu ad litora</li>
-				<li>Class aptent taciti sociosqu ad litora</li>
-				<li>Class aptent taciti sociosqu ad litora</li>
-			</ul>
-			<button>Get Advanced</button>
+			<div class="grid_heading">
+				<h2>File Advanced</h2>
+				<h3>$9/month</h3>
+				<p>Release your ideas with our all in one plan</p>
+			</div>
+			<div class="features">
+				<div class="features_row row1">
+					<div class="f_icon icon1">
+						<img src="images/feature_icon.svg">
+					</div>
+					<div class="f_text text1">
+						<p>Truly unlimited storage – forever</p>
+					</div>
+				</div>
+				<div class="features_row row2">
+					<div class="f_icon icon2">
+						<img src="images/feature_icon.svg">
+					</div>
+					<div class="f_text text2">
+						<p>High Definition output for projects</p>
+					</div>
+				</div>
+				<div class="features_row row3">
+					<div class="f_icon icon3">
+						<img src="images/feature_icon.svg">
+					</div>
+					<div class="f_text text3">
+						<p>Powerful suite of editing tools</p>
+					</div>
+				</div>
+				<div class="features_row row4">
+					<div class="f_icon icon4">
+						<img src="images/feature_icon.svg">
+					</div>
+					<div class="f_text text4">
+						<p>Design forward sprint manager</p>
+					</div>
+				</div>
+			</div>
+			<div class="cta">
+				<div class="cta_space"></div>
+				<button>Get Advanced</button>
+			</div>
+		</div>
+
+		<div class="messaging">
+			<h1>Make it yours, everywhere.
+			<h2>With Advanced, one size truly <br>fits all your ideas.</h2>
+			<p>Before Advanced, we offered a range of options to get your team started. After listening to our community, we've now got just one great offering for you, Advanced. </p>
+		</div>
+
+	</div>
+	<div id="faq">
+		<div class="faq_intro">
+			<h2>We've got answers.</h2>
+			<p>Whether you're on the fence on subscribing, or you need clarification on one of our features, read on to learn about us. You can also connect with us on social.</p>
+		</div>
+		<div class="questions">
+			<div class="column1">
+				<div class="question1">
+					<h3>Is this a real service?</h3>
+					<p>No, it's completely fictional and doesn't exist.</p>
+				</div>
+				<div class="question2">
+					<h3>I think your buttons are broken</h3>
+					<p>Actually, all our buttons are static on purpose.</p>
+				</div>
+				<div class="question3">
+					<h3>What's the point of all this then?</h3>
+					<p>It's a very simple class project.</p>
+				</div>
+				<div class="question4">
+					<h3>Can I submit a question?</h3>
+					<p>I don't think so. No.</p>
+				</div>
+			</div>
+			<div class="column2">
+				<div class="question5">
+					<h3>Is this page responsive?</h3>
+					<p>Yes! It responds across web, tablet and mobile.</p>
+				</div>
+				<div class="question6">
+					<h3>Do you have any enterprise plans?</h3>
+					<p>No, we don't even have an individual plan.</p>
+				</div>
+				<div class="question7">
+					<h3>All of the features look very compelling.</h3>
+					<p>Thank you!</p>
+				</div>
+				<div class="question8">
+					<h3>In these responses, who's "we"?</h3>
+					<p>Probably no one.</p>
+				</div>
+			</div>
 		</div>
 	</div>
+	<div id="footer">
+		<div class="footer_content">
+			<h1>Upstart your creative workflow.</h1>
+			<h4>Join today for 45% off when you sign up half of your team</h4>
+			<button>Get started</button>
+		</div>
+	</div>
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/startup.js"></script>
 
 </body>
 </html>
