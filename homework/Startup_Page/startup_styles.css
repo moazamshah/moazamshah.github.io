@@ -28,6 +28,10 @@ p {
 	height: 70px;
 }
 
+.nav-items p {
+	font-size: 24px;
+}
+
 .nav-items .buttons {
 	display: flex;
 	justify-content: space-between;
